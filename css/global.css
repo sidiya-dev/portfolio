@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Fira Code', sans-serif;
+    background-color: var(--background-color);
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-size: 16px;
+    color: var(--gray);
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    width: fit-content;
+    color: var(--white);
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    transition: background-color .5s ease;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-inline: 16px;
+}
+
+section {
+   margin-bottom: 60px;
+}
+
