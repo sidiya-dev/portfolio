@@ -8,6 +8,8 @@ $navTogglerBtn.addEventListener('click', () => {
 });
 
 window.addEventListener('scroll', () => {
-    $navbarContainer.classList.remove('active');
-    $navTogglerBtn.classList.remove('active');
+    if(window.scrollY > 50) {
+        $navbarContainer.classList.remove('active');
+        $navTogglerBtn.classList.remove('active');
+    }
 })
