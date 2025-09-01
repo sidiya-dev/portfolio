@@ -116,13 +116,6 @@ nav {
 .hero-content span{
     color: var(--primary);
 }
-.contact-btn {
-    border: 1px solid var(--primary);
-    display: none;
-}
-.contact-btn:hover {
-    background-color: rgb(from var(--primary) r g b / 0.2);
-}
 .hero-banner {
     display: flex;
     flex-direction: column;
@@ -233,19 +226,7 @@ nav {
     display: flex;
     gap: 16px;
 }
-.live-btn {
-    border: 1px solid var(--primary);
-}
-.live-btn:hover {
-    background-color: rgb(from var(--primary) r g b / 0.2);
-}
-.cached-btn {
-    border: 1px solid var(--gray);
-    color: var(--gray);
-}
-.cached-btn:hover {
-    background-color: rgb(from var(--gray) r g b / 0.2);
-}
+
 /* SKILLS */
 .skill-content {
     display: flex;
@@ -293,12 +274,6 @@ nav {
     display: flex;
     flex-direction: column;
     gap: 27px;
-}
-.read-more-btn {
-    border: 1px solid var(--primary);
-}
-.read-more-btn:hover {
-    background-color: rgb(from var(--primary) r g b / 0.2);
 }
 .about-banner {
     display: none;

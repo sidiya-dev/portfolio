@@ -39,13 +39,28 @@ button {
     transition: background-color .5s ease;
 }
 
+
+section {
+    margin-bottom: 60px;
+}
+
 .container {
     max-width: 1024px;
     margin: 0 auto;
     padding-inline: 16px;
 }
 
-section {
-   margin-bottom: 60px;
+.primary-btn {
+    border: 1px solid var(--primary);
+}
+.primary-btn:hover {
+    background-color: rgb(from var(--primary) r g b / 0.2);
 }
 
+.secondary-btn {
+    border: 1px solid var(--gray);
+    color: var(--gray);
+}
+.secondary-btn:hover {
+    background-color: rgb(from var(--gray) r g b / 0.2);
+}
